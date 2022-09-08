@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+
+.main {
+  background-color: hsl(185, 75%, 39%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  text-align: center;
+  max-width: 350px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.upper__container {
+  background: url(./images/bg-pattern-card.svg);
+  background-size: cover;
+  height: 150px;
+  width: 350px;
+}
+
+.img__profile {
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: -50px auto -30px auto;
+  height: 100px;
+  overflow: hidden;
+  width: 100px;
+}
+
+.img__profile img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.card__body {
+  margin-top: 54px;
+  margin-bottom: -75px;
+  height: 250px;
+  line-height: 1.8rem;
+}
+
+.card__body .name {
+  font-size: 1.4rem;
+}
+
+.card__body .city {
+  /* margin-top: 10px; */
+  margin-bottom: 20px;
+}
+
+.card__body .age,
+.card__body .city {
+  /* font-weight: 400; */
+  font-size: 1.1rem;
+  color: hsl(0, 0%, 59%);
+}
+
+.activity__container {
+  border-top: 1px solid hsl(0, 10%, 88%);
+  padding: 22px 40px;
+  padding-right: 40px;
+  padding-left: 40px;
+  /* margin-top: 23px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.activity__container .act {
+  align-items: center;
+  display: block;
+  /* font-weight: 400; */
+  font-size: 0.9rem;
+  color: hsl(0, 0%, 59%);
+  letter-spacing: 0.1rem;
+}
+
