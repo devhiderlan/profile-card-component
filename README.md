@@ -22,4 +22,4 @@ Veja o projeto aqui: [Acessar🌍]()
 
 ## Autor
 
-Hiderlan Santana: [Linkedin](https://www.linkedin.com/in/hiderlan-santana/)# profile-card-component
+Hiderlan Santana: [Linkedin](https://www.linkedin.com/in/hiderlan-santana/)
