@@ -4,7 +4,7 @@
 
 #
 
-![](./images/profile-card-component.png)
+![](./Assets/images/profile-card-component.png)
 
 
 #
